@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: rgb(158, 230, 14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 80vh;
+}
+
+.section-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.section-content h1 {
+    font-size: 46px;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.section-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.section-image {
+    display: flex;
+    flex: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6; 
+    border-radius: 10px;
+}
+.image-box {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70vh;
+}
+.image-box img {
+    width: 200px;
+    height: auto;
+}
+.content-current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100px;
+    /* background-color: blue; */
+    position: relative;
+    margin-left: 15vw;
+}
+
+.current-drink {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    height: 100%; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+.social-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-btn img {
+    width: 50%; /* Ajusta el tamaño de las imágenes al contenedor */
+    height: auto;
+}
+
+.social-btn:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+}
+
+
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drink-selector {
+    display: flex;
+    gap: 20px;
+}
+
+.drink-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.drink-option:hover {
+    transform: scale(1.1);
+    border-color: #333;
+}
