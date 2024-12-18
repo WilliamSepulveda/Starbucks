@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebidas</title>
@@ -15,9 +16,9 @@
             <nav class="header-nav">
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Menú</a></li>
-                    <li><a href="#">Novedades</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="https://www.starbucks.com.co/menu">Menú</a></li>
+                    <li><a href="https://www.starbucks.com.co/seccion/novedades">Novedades</a></li>
+                    <li><a href="https://www.starbucks.com.co/stores">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,25 +36,27 @@
                 </div>
                 <div class="content-current">
                     <div class="current-drink">
-                        <button class="social-btn">
+                        <button class="social-btn" onclick="window.open('https://www.facebook.com/StarbucksColombia/?locale=es_LA')">
                             <img src="./storage/img/facebook.png" alt="Facebook">
                         </button>
-                        <button class="social-btn">
+                        <button class="social-btn" onclick="window.open('https://www.instagram.com/starbuckscol/?hl=es')">
                             <img src="./storage/img/instagram.png" alt="Instagram">
                         </button>
-                        <button class="social-btn">
+                        <button class="social-btn" onclick="window.open('https://twitter.com/Starbucks')">
                             <img src="./storage/img/twitter.png" alt="Twitter">
                         </button>
                     </div>
+                    
                 </div>
                 
             </div>
         </section>
         <footer class="footer">
             <div class="drink-selector">
-                <div class="drink-option" style="background-color: green;"></div>
-                <div class="drink-option" style="background-color: blue;"></div>
-                <div class="drink-option" style="background-color: orange;"></div>
+                <div class="drink-option" style="background-color: green;" onclick="window.location.href='/views/green.html';"></div>
+                <div class="drink-option" style="background-color: #a8d5f8;" onclick="window.location.href='index.html';"></div>
+                <div class="drink-option" style="background-color: orange;" onclick="window.location.href='/views/.html';"></div>
+
             </div>
         </footer>
     </div>
