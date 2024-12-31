@@ -53,7 +53,7 @@ body {
 
 .section-content h1 {
     font-size: 46px;
-    color: #0056b3;
+    color: green;
     margin-left: 50px;
     letter-spacing: 5px;
 }
@@ -73,16 +73,15 @@ body {
     display: flex;
     height: 690px;
     margin-top: 5vh;
+    transform: translateX(18px);
     width: 50%;
     align-items: center;
     justify-content: center;
-    background-color: #a5d8ff8b;
-    border-radius: 10px;
+    background-color: #a8f8c3;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    transform: translateX(18px);
 }
 
 .image-box {
@@ -107,8 +106,8 @@ body {
     align-items: center;
     height: 400px;
     width: 150px;
-    border: 5px solid #92cdfb;
-    background-color: #a8d5f83f;
+    border: 5px solid #88f8ad;
+    background-color: #a8f8c3;
     position: relative;
     margin-left: 20vw;
     border-radius: 30px;
